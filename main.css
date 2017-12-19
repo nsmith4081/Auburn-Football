@@ -1,5 +1,5 @@
 body {
-  background-color: #595656;
+  background-color: #03244d;
 }
 
 div.container {
@@ -16,22 +16,21 @@ div.container {
 }
 
 header {
-  background-color: #a06603;
+  background-color: #cc4e0b;
   grid-area: header;
 }
 
 main {
-  background-color: #dd0404;
   grid-area: main;
 }
 
 aside {
-  background-color: #056821;
+
   grid-area: aside;
 }
 
 footer {
-  background-color :#ff9000;
+  background-color :#cc4e0b;
   grid-area: footer;
 }
 
@@ -44,4 +43,31 @@ footer {
       "aside"
       "footer";
   }
+}
+h1{
+  font-family: sans-serif;
+}
+
+h2 {
+
+}
+
+p {
+  font-family: cursive;
+}
+
+a:link {
+  color: red;
+}
+
+a:visited {
+  color: red;
+}
+
+a:hover {
+  color: red;
+}
+
+a:active {
+  color: red;
 }
